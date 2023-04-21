@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-size: 24px;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 20px;
+}
+.btn {
+    font-size: 20px;
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #0057a3;
+}
+.btn-update {
+    background-color: #008CBA;
+}
+.btn-update:hover {
+    background-color: #004966;
+}
+.btn-delete {
+    background-color: #f44336;
+}
+.btn-delete:hover {
+    background-color: #750f0f;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+th.actions {
+    width: 180px;
+}
+th {
+    background-color: lightgray;
+}

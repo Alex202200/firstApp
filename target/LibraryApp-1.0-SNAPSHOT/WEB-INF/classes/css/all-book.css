@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    margin-top: 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #DDD;
+}
+th {
+    background-color: #EEE;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.add-book {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: #EEE;
+    transition: background-color 0.2s ease;
+}
+.add-book:hover {
+    background-color: #DDD;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+}

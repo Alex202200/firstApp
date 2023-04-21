@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-size: 24px;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+    font-size: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+th {
+    background-color: lightgray;
+}
+
+.add-book {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.edit-button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
