@@ -32,4 +32,4 @@ Build the project using Maven: mvn clean install.
 Deploy the WAR file to a Tomcat server.
 Open a web browser and go to http://localhost:{tomcat-port}/persons. or /books
 Credits
-This proqject was created by [Aliaksandr Matsiushonak].# LibraryApp.!!
+This project was created by [Aliaksandr Matsiushonak].# LibraryApp!
